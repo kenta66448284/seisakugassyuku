@@ -1,0 +1,201 @@
+@charset "UTF-8";
+body {
+  background: url(../images/haikei01_119_Wi76S.png) no-repeat center center;
+  background-attachment: fixed;
+  text-align: center;
+  color: #373232;
+  font-family: "Kosugi Maru", sans-serif;
+}
+
+.inner {
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  display: none;
+}
+
+.button__img {
+  height: 10vh;
+  position: fixed;
+  right: 8%;
+  bottom: 5%;
+  z-index: 20;
+}
+.button__text {
+  position: fixed;
+  height: 5vh;
+  right: 8%;
+  bottom: 15%;
+  z-index: 20;
+}
+
+.header {
+  position: relative;
+}
+.header__flex {
+  display: flex;
+  align-items: center;
+}
+.header__title {
+  font-size: 1.875rem;
+}
+.header__img {
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  padding-top: 161px;
+}
+.header__text {
+  font-size: 2.1875rem;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 2px #000 solid;
+  margin: 4.0625rem 0 10.125rem;
+}
+.header__border {
+  text-align: center;
+  display: inline-block;
+  width: 21%;
+  border-bottom: 2px #000 solid;
+}
+
+.gnav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #fff;
+  opacity: 90%;
+  align-items: center;
+}
+.gnav__list {
+  display: flex;
+}
+.gnav__link {
+  color: #373232;
+  text-decoration: none;
+}
+.gnav__link:hover {
+  color: #A9D0D8;
+}
+.gnav__item {
+  width: 120px;
+  list-style: none;
+}
+
+.slider {
+  margin-top: 161px;
+  position: relative;
+  z-index: 1;
+  /*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
+  height: 100vh;
+  /*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+}
+
+/*　背景画像設定　*/
+.slider-item01 {
+  background: url(../images/22615512_s.png);
+}
+
+.slider-item02 {
+  background: url(../images/slideshow.png);
+}
+
+.slider-item03 {
+  background: url(../images/slideshow2.png);
+}
+
+.slick-dots {
+  display: none;
+}
+
+.slider-item {
+  width: 100%;
+  /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+  height: 50vh;
+  /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+  background-repeat: no-repeat;
+  /*背景画像をリピートしない*/
+  background-position: center;
+  /*背景画像の位置を中央に*/
+  background-size: cover;
+  /*背景画像が.slider-item全体を覆い表示*/
+}
+
+.title {
+  display: inline-block;
+  text-align: center;
+  font-size: 2.1875rem;
+  font-weight: normal;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  padding: 8.75rem 0 0 0;
+  border-bottom: rgba(248, 238, 113, 0.33) 20px solid;
+  width: 30%;
+}
+
+.about {
+  background-color: #F4F4F4;
+}
+.about__list {
+  display: flex;
+  justify-content: space-around;
+  padding: 3.125rem 0 1.25rem;
+}
+
+.merit__box {
+  display: flex;
+  justify-content: center;
+  padding: 2.1875rem 0 11.875rem;
+}
+.merit__item {
+  margin: 0 5%;
+  width: 18%;
+}
+
+.function {
+  background-color: #F4F4F4;
+}
+.function__box {
+  display: flex;
+  justify-content: center;
+  padding: 7.5rem 0 13.125rem;
+}
+.function__item {
+  margin: 0 1.875rem;
+}
+.function__img {
+  width: 85%;
+}
+.function__text {
+  font-size: 1.5rem;
+}
+
+.service__box {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 13.75rem;
+}
+.service__img {
+  width: 35%;
+  margin-bottom: 1.25rem;
+}
+
+.footer {
+  background-color: #F4F4F4;
+}
+.footer__copy {
+  display: block;
+  padding: 6.25rem 0 9.375rem;
+}
+/*# sourceMappingURL=style.css.map */
